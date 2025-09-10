@@ -7,6 +7,7 @@ import Projects from "./components/Project";
 import About from "./components/About";
 import Services from "./components/Services";
 import RecentWorks from "./components/Recentworks";
+import Values from "./components/Values";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <About />
       <RecentWorks />
       <Services />
+      <Values />
       
     </div>
   );

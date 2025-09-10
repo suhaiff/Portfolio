@@ -146,12 +146,6 @@
     left: 100%;
     animation: scrollleft 30s linear infinite;
   }
-  .scroll-content span {
-    display: inline-block;
-    font-size: 1.5rem;
-    margin: 0 40px;
-    color: #555;
-  }
   .scroll-content:hover {
     cursor: pointer;
     animation-play-state: paused;

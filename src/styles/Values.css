@@ -1,0 +1,137 @@
+/* Section container */
+.values-section {
+    padding: 80px 20px;
+    background: #f9f9f9;
+    text-align: center;
+  }
+  
+  .values-title {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    color: #222;
+  }
+  
+  .values-subtitle {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 50px;
+  }
+  
+  /* Timeline container */
+  .values-timeline {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: 700px; /* adjust height based on number of cards */
+    padding: 40px 0;
+  }
+  
+  /* Vertical timeline line */
+  .values-timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 4px;
+    background: #ddd;
+    transform: translateX(-50%);
+    z-index: 0;
+  }
+  
+  /* Base card styling */
+  .value-card {
+    position: absolute; /* absolute for precise positioning around center */
+    margin: 0;
+    padding: 20px 25px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    z-index: 1;
+  }
+  
+  .value-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .value-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .value-card p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* Pyramid row widths */
+  .value-card.row1 { width: 45%; }
+  .value-card.row2 { width: 35%; }
+  .value-card.row3 { width: 25%; }
+  
+  /* Left/right positioning around center */
+  .value-card.left {
+    right: 50%;
+    transform: translateX(-20px); /* small gap from timeline */
+    text-align: right;
+  }
+  
+  .value-card.right {
+    left: 50%;
+    transform: translateX(20px); /* small gap from timeline */
+    text-align: left;
+  }
+  
+  /* Vertical positioning (top) for each card */
+  .value-card.row1.left { top: 0; }
+  .value-card.row1.right { top: 0; }
+  
+  .value-card.row2.left { top: 150px; }
+  .value-card.row2.right { top: 150px; }
+  
+  .value-card.row3.left { top: 300px; }
+  .value-card.row3.right { top: 300px; }
+  
+  /* Connector dots */
+  .value-card::before {
+    content: '';
+    position: absolute;
+    top: 25px;
+    width: 20px;
+    height: 20px;
+    background: #4f46e5;
+    border-radius: 50%;
+  }
+  
+  .value-card.left::before { right: -10px; }
+  .value-card.right::before { left: -10px; }
+  
+  /* Hover effect */
+  .value-card:hover {
+    transform: translateY(-5px) translateX(var(--hover-offset, 0));
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  }
+  
+  /* Mobile responsive */
+  @media screen and (max-width: 768px) {
+    .value-card {
+      position: relative !important;
+      width: 90% !important;
+      left: 50% !important;
+      right: auto !important;
+      transform: translateX(-50%) !important;
+      text-align: center !important;
+      margin: 40px auto !important;
+      top: auto !important;
+    }
+  
+    .value-card::before {
+      left: 50% !important;
+      transform: translateX(-50%);
+    }
+  }
+  
