@@ -1,0 +1,130 @@
+.hero-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .hero-section {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    padding: 0 1rem;
+    max-width: 700px;
+  }
+  
+  .hero-heading {
+    word-spacing: 3px;
+    color: #fffffff1;
+    font-size: 3.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-heading span {
+    font-size: 2.3rem;
+    color: #fff;
+  }
+  
+  .hero-subtitle {
+    color: #6366f1;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-description {
+    font-size: 1.1rem;
+    font-style: italic;
+    word-spacing: 2px;
+    margin-bottom: 2rem;
+    color: #9ca3af;
+  }
+
+  .hero-description span {
+    font-weight: bold;
+  }
+  
+  .hero-button-group {
+    display: flex;
+    gap: 1.3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .hero-button {
+    padding: 0.75rem 1.5rem;
+    color: gainsboro;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+    display: inline-block;
+  }
+  
+  .hero-button.primary {
+    color: #333;
+    background-color: ghostwhite;
+  }
+
+  .hero-button.primary:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 12px #fff;
+    color: #000;
+    transition: all 0.3s ease;
+  }
+  
+  .hero-button.secondary {
+    color: #e5e5e5;
+    background-color: #1f2937;
+    border: 1px solid #d1d5db;
+    box-shadow: 0 0 5px rgba(229, 229, 229, 0.2);
+  }
+
+  
+  
+  
+
+  .hero-button.secondary:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 12px rgba(99, 101, 241, 0.164);
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .hero-socials {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+  }
+
+  .hero-socials a {
+    color: #cbd5e1;
+  }
+
+  .hero-socials a:hover {
+    color: #fff;
+  }
+  
+  .vertline {
+    width: 1.5px;
+    height: 25px;
+    background-color: #555;
+    transform: scaleX(1.1);
+  }
+  .floating-word {
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+    user-select: none;
+    white-space: nowrap;
+    z-index: 0;
+  }
+  

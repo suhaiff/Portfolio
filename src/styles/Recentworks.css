@@ -1,0 +1,92 @@
+.recent-works {
+    padding: 4rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-left: 5%;
+    margin-bottom: 2rem;
+  }
+  
+  .slider {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .nav-arrow {
+    background: transparent;
+    color: white;
+    font-size: 2.5rem;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    padding: 0.5rem;
+    transition: transform 0.2s ease;
+  }
+  
+  .nav-arrow:hover {
+    transform: scale(1.2);
+  }
+  
+  .project-container {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 1rem;
+    scrollbar-width: none; 
+  }
+  
+  .project-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .project-card {
+    flex: 0 0 auto;
+    width: 300px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background: #1c1c1c;
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease, transform 0.3s ease;
+  }
+  
+  .project-card:hover .project-image {
+    filter: grayscale(0%);
+  }
+  
+  .case-study {
+    width: 80%;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5rem;
+    color: #000;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    background-color: ghostwhite;
+    border: 2px solid #555;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .case-study:hover {
+    background-color: #6366f1;
+    color: #f1f5f9;
+  }
+  

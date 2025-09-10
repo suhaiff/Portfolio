@@ -1,0 +1,41 @@
+.scroll-hint-container {
+    margin: 2rem 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    z-index: 10;
+  }
+  
+  .scroll-text {
+    color: #9ca3af;
+    font-size: 1rem;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  
+  .line-container {
+    position: relative;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .horizontal-line {
+    flex: 1;
+    height: 0.5px;
+    background-color: #555;
+  }
+  
+  .mouse-icon {
+    position: absolute;
+    background: transparent;
+    color: #f1f5f9;
+    padding: 0.25rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+  }
+  

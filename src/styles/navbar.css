@@ -1,0 +1,96 @@
+.navbar {
+    position: fixed;
+    top: 1rem;
+    left: 10%;
+    transform: translateX(-50%);
+    width: 80%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 50;
+    border-radius: 1rem;
+    
+  }
+  
+  .navbar-container {
+    text-decoration: none;
+    max-width: 1280px;
+    margin: 0 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .accent {
+    color: #6366f1; /* indigo-500 */
+  }
+  
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links, .mobile-menu {
+    list-style: none;
+    padding-left: 0; /* optional: removes default indentation */
+    margin: 0;
+  }
+
+  
+  @media (min-width: 768px) {
+    .nav-links {
+      display: flex;
+      gap: 3.5rem;
+      color: white;
+    }
+  }
+  
+  .nav-link {
+    color: #818cf8;
+    text-decoration: none;
+    transition: 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: aliceblue; /* indigo-400 */
+  }
+  
+  .menu-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+  }
+  
+  @media (min-width: 768px) {
+    .menu-button {
+      display: none;
+    }
+  }
+  
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  .mobile-link {
+    text-decoration: none;
+    transition: 0.3s ease;
+  }
+  
+  .mobile-link:hover {
+    color: #818cf8;
+  }
+  
