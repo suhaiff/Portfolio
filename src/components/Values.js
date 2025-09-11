@@ -37,7 +37,7 @@ const values = [
 const Values = () => {
   return (
     <section className="values-section">
-      <h2 className="values-title">What I Value</h2>
+      <h2 className="values-title">My Core Principles</h2>
       <p className="values-subtitle">
         These are the principles that guide my work and growth as a developer.
       </p>

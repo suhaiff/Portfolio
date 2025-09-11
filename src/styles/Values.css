@@ -1,14 +1,14 @@
 /* Section container */
 .values-section {
     padding: 80px 20px;
-    background: #f9f9f9;
+    background: #222;
     text-align: center;
   }
   
   .values-title {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     margin-bottom: 0.5rem;
-    color: #222;
+    color: #6366f1;
   }
   
   .values-subtitle {
@@ -22,7 +22,7 @@
     position: relative;
     max-width: 900px;
     margin: 0 auto;
-    min-height: 700px; /* adjust height based on number of cards */
+    min-height: 550px; /* adjust height based on number of cards */
     padding: 40px 0;
   }
   
@@ -33,10 +33,11 @@
     top: 0;
     bottom: 0;
     left: 50%;
-    width: 4px;
+    width: 2px;
     background: #ddd;
     transform: translateX(-50%);
     z-index: 0;
+    opacity: 0.6;
   }
   
   /* Base card styling */
@@ -45,7 +46,7 @@
     margin: 0;
     padding: 20px 25px;
     border-radius: 12px;
-    background: #fff;
+    background: #ccc;
     box-shadow: 0 4px 10px rgba(0,0,0,0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     z-index: 1;
@@ -90,11 +91,11 @@
   .value-card.row1.left { top: 0; }
   .value-card.row1.right { top: 0; }
   
-  .value-card.row2.left { top: 150px; }
-  .value-card.row2.right { top: 150px; }
+  .value-card.row2.left { top: 200px; }
+  .value-card.row2.right { top: 200px; }
   
-  .value-card.row3.left { top: 300px; }
-  .value-card.row3.right { top: 300px; }
+  .value-card.row3.left { top: 400px; }
+  .value-card.row3.right { top: 400px; }
   
   /* Connector dots */
   .value-card::before {
