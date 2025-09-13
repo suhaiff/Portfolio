@@ -9,6 +9,7 @@ import Services from "./components/Services";
 import RecentWorks from "./components/Recentworks";
 import Values from "./components/Values";
 import Journey from "./components/Journey";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Services />
       <Values />
       <Journey />
+      <Contact />
       
     </div>
   );

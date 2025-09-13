@@ -8,7 +8,7 @@ const Loader = () => {
   const { progress } = useProgress();
   return (
     <div style={{ color: "white", position: "absolute", top: 20, left: 20, zIndex: 10 }}>
-      Loading 3D Model: {Math.round(progress)}%
+      Loading... {Math.round(progress)}%
     </div>
   );
 };
@@ -105,7 +105,7 @@ const Hero = () => {
         animate={{ y: [0, 20, 0] }}
         transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut", delay: 1.2 }}
       >
-        Clean Code
+        Python
       </motion.span>
 
     </div>
