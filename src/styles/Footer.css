@@ -1,0 +1,107 @@
+.footer {
+    background: #000;
+    color: #fff;
+    padding: 3rem 2rem 1rem;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .footer-logo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  .footer-logo span {
+    color: #6366f1;
+  }
+  .footer-tagline {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    opacity: 0.8;
+    text-align: center;
+  }
+
+
+
+  
+  .footer-nav, .footer-social, .footer-services {
+    text-align: center;
+  }
+
+  /* Section headings */
+  .footer-nav h3,
+  .footer-social h3,
+  .footer-services h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #6366f1;
+  }
+  
+  /* Quick Links */
+  .footer-nav ul {
+    font-size: 12px;
+    list-style: none;
+    padding: 0;
+  }
+  .footer-nav ul li {
+    margin: 0.4rem 0;
+  }
+  .footer-nav ul li a {
+    text-decoration: none;
+    color: #ccc;
+    transition: color 0.3s;
+    letter-spacing: 1px;
+  }
+  .footer-nav ul li a:hover {
+    color: #6366f1;
+  }
+  
+  /* Social Icons */
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+    
+  }
+  .social-icons a {
+    color: #ccc;
+    font-size: 1.3rem;
+    transition: color 0.3s;
+  }
+  .social-icons a:hover {
+    color: #6366f1;
+  }
+  
+  .contact-info {
+    font-size: 14px;
+    opacity: 0.85;
+    margin: 1rem 0;
+    text-align: center;
+  }
+  
+  /* Services */
+  .footer-services p {
+    margin: 0.4rem 0;
+    font-size: 12px;
+    color: #ccc;
+    letter-spacing: 1px;
+  }
+  
+  /* Closing Note */
+  .footer-bottom {
+    border-top: 1px solid #6366f1;
+    text-align: center;
+    padding-top: 1rem;
+  }
+  .footer-bottom p {
+    font-size: 0.85rem;
+    opacity: 0.8;
+  }
+  

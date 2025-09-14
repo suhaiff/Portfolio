@@ -10,6 +10,7 @@ import RecentWorks from "./components/Recentworks";
 import Values from "./components/Values";
 import Journey from "./components/Journey";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Values />
       <Journey />
       <Contact />
+      <Footer />
       
     </div>
   );

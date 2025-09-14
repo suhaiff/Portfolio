@@ -4,9 +4,9 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section className="contact-section">
+    <section className="contact-section" id="contact">
       <h2 className="contact-title"> 🔗 &nbsp;Let's Connect &nbsp;!</h2>
-      <p className="contact-subtext">~ Open for Oppertunities and Collaborations.</p>
+      <p className="contact-subtext">~ Open to collaborations, freelance projects, or full-time opportunities.</p>
       <div className="contact-container">
         {/* Left Side - Info */}
         <div className="contact-info">
@@ -43,6 +43,8 @@ const Contact = () => {
           <button type="submit">Send Message</button>
         </form>
       </div>
+      <p className="contact-endtext">Drop me a line! I love connecting and typically respond within 24 hours.</p>
+      
     </section>
   );
 };
