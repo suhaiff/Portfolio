@@ -19,6 +19,7 @@
   .hero-heading {
     word-spacing: 3px;
     color: #fffffff1;
+    font-family: 'Roboto Slab', serif;
     font-size: 3.8rem;
     font-weight: bold;
     margin-bottom: 1rem;
@@ -31,6 +32,7 @@
   
   .hero-subtitle {
     color: #6366f1;
+    font-family: 'Roboto Slab', serif;
     font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 1rem;
@@ -39,6 +41,7 @@
   .hero-description {
     font-size: 1.1rem;
     font-style: italic;
+    font-family: 'Inter', sans-serif;
     word-spacing: 2px;
     margin-bottom: 2rem;
     color: #9ca3af;
@@ -60,6 +63,7 @@
     color: gainsboro;
     border-radius: 0.5rem;
     text-decoration: none;
+    font-family: 'Playfair', serif;
     font-weight: 600;
     transition: transform 0.3s ease;
     display: inline-block;
@@ -119,6 +123,7 @@
   }
   .floating-word {
     position: absolute;
+    font-family: 'Poppins', serif;
     font-size: 1.5rem;
     font-weight: bold;
     color: rgba(255, 255, 255, 0.1);

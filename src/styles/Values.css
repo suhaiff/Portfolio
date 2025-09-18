@@ -6,12 +6,14 @@
   }
   
   .values-title {
+    font-family: 'Roboto Slab', serif;
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
     color: #6366f1;
   }
   
   .values-subtitle {
+    font-family: 'Poppins', serif;
     font-size: 1rem;
     color: #555;
     margin-bottom: 50px;
@@ -58,12 +60,14 @@
   }
   
   .value-card h3 {
+    font-family: 'Poppins', serif;
     font-size: 1.2rem;
     margin-bottom: 10px;
     color: #333;
   }
   
   .value-card p {
+    font-family: 'Inter', serif;
     font-size: 0.95rem;
     color: #555;
     line-height: 1.5;

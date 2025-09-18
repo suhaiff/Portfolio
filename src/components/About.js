@@ -39,6 +39,7 @@ const About = () => {
             <span>Three.js</span>
             <span>Figma</span>
             <span>Python</span>
+            <span>Git</span>
         </div>
         <hr className="line"/>
         <div className="experience">

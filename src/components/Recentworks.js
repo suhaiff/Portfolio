@@ -3,18 +3,16 @@ import { PiArrowSquareLeftDuotone } from "react-icons/pi";
 import { PiArrowSquareRightDuotone } from "react-icons/pi";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import "../styles/Recentworks.css";
-import Project1 from "../assets/project1.png";
-import Project2 from "../assets/project2.jpg";
+import Project1 from "../assets/project7.png";
+import Project2 from "../assets/project2.png";
+import Project3 from "../assets/project1.png";
+import Project4 from "../assets/project17.jpg";
 
 const recentProjects = [
   { id: 1, image: Project1, title: "Project One" },
-  { id: 2, image: Project1, title: "Project Two" },
-  { id: 3, image: Project1, title: "Project Three" },
-  { id: 4, image: Project2, title: "Project Four" },
-  { id: 5, image: Project2, title: "Project Four" },
-  { id: 6, image: Project2, title: "Project Four" },
-  { id: 7, image: Project2, title: "Project Four" },
-  { id: 8, image: Project2, title: "Project Four" },
+  { id: 2, image: Project2, title: "Project Two" },
+  { id: 3, image: Project3, title: "Project Three" },
+  { id: 4, image: Project4, title: "Project Four" },
 ];
 
 const RecentWorks = () => {

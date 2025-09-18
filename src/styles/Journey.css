@@ -7,6 +7,7 @@
 }
 
 .journey-title {
+  font-family: 'Roboto Slab', serif;
   font-size: 2rem;
   margin-bottom: 40px;
   color: #6366f1;
@@ -117,6 +118,7 @@
 
 .content h3 {
   margin: 0 0 8px 0;
+  font-family: 'Poppins', serif;
   font-size: 1.05rem;
   color: #fff;
   letter-spacing: 0.2px;
@@ -125,6 +127,7 @@
 .content p {
   margin: 0;
   color: #c9d0df;
+  font-family: 'Inter', serif;
   font-size: 0.95rem;
   line-height: 1.5;
 }

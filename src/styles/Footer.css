@@ -1,6 +1,5 @@
 .footer {
     background: #000;
-    color: #fff;
     padding: 3rem 2rem 1rem;
     font-family: 'Poppins', sans-serif;
   }
@@ -13,6 +12,7 @@
   }
   
   .footer-logo {
+    font-family: 'Poppins', serif;
     font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
@@ -21,6 +21,7 @@
     color: #6366f1;
   }
   .footer-tagline {
+    font-family: 'Inter', serif;
     font-size: 0.9rem;
     margin-top: 0.5rem;
     opacity: 0.8;
@@ -41,10 +42,12 @@
     font-size: 1.1rem;
     margin-bottom: 1rem;
     color: #6366f1;
+    font-family: 'Roboto slab', serif;
   }
   
   /* Quick Links */
   .footer-nav ul {
+    font-family: 'Inter', serif;
     font-size: 12px;
     list-style: none;
     padding: 0;
@@ -80,15 +83,18 @@
   }
   
   .contact-info {
+    font-family: 'Inter', serif;
     font-size: 14px;
     opacity: 0.85;
     margin: 1rem 0;
     text-align: center;
+    color: #ccc;
   }
   
   /* Services */
   .footer-services p {
     margin: 0.4rem 0;
+    font-family: 'Inter', serif;
     font-size: 12px;
     color: #ccc;
     letter-spacing: 1px;
@@ -101,6 +107,8 @@
     padding-top: 1rem;
   }
   .footer-bottom p {
+    color: #ddd;
+    font-family: 'Roboto slab', serif;
     font-size: 0.85rem;
     opacity: 0.8;
   }

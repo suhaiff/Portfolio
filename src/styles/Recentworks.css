@@ -5,6 +5,7 @@
   }
   
   .section-title {
+    font-family: 'Roboto Slab', serif;
     font-size: 2rem;
     margin-left: 5%;
     margin-bottom: 2rem;
@@ -33,10 +34,11 @@
   
   .project-container {
     display: flex;
-    gap: 1.5rem;
+    height: 500px;
+    gap: 2.5rem;
     overflow-x: auto;
     scroll-behavior: smooth;
-    padding: 1rem;
+    padding: 3rem;
     scrollbar-width: none; 
   }
   
@@ -45,11 +47,13 @@
   }
   
   .project-card {
+    margin: 2rem 0;
+    padding: 2rem;
     flex: 0 0 auto;
     width: 300px;
     border-radius: 0.5rem;
     overflow: hidden;
-    background: #1c1c1c;
+    background: #222;
     position: relative;
     transition: transform 0.3s ease;
   }
@@ -57,7 +61,7 @@
   
   .project-image {
     width: 100%;
-    height: auto;
+    height: 350px;
     display: block;
     filter: grayscale(100%);
     transition: filter 0.3s ease, transform 0.3s ease;
@@ -68,6 +72,7 @@
   }
   
   .case-study {
+    font-family: 'Inter', serif;
     width: 80%;
     position: absolute;
     bottom: 5%;

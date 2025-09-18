@@ -23,6 +23,7 @@
   
   .logo {
     text-decoration: none;
+    font-family: 'Poppins', serif;
     font-size: 1.5rem;
     font-weight: bold;
     color: white;
@@ -52,9 +53,12 @@
   }
   
   .nav-link {
+    font-family: 'Inter', serif;
+    font-size: 14px;
     color: #818cf8;
     text-decoration: none;
-    transition: 0.3s ease;
+    transition: 0.1s ease;
+    letter-spacing: 2px;
   }
   
   .nav-link:hover {
